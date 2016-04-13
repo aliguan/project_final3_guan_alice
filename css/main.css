@@ -23,3 +23,10 @@ header img {
     position: absolute;
     width: 1px;
 }
+
+.marquee {
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid #cccccc;
+    background: #cccccc;
+}

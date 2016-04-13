@@ -4,13 +4,23 @@ html {
     background-size: cover;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Digital7';
+    src: url("../font/digital7.ttf");
+}
+
 header img {
     width: 55%;
     display: block;
     margin: auto;
     max-width: 450px;
     min-width: 300px;
-    padding: 2em;
 }
 
 .hidden {
@@ -25,8 +35,14 @@ header img {
 }
 
 .marquee {
-    width: 300px;
+    width: 100%;
+    margin: auto;
     overflow: hidden;
-    border: 1px solid #cccccc;
-    background: #cccccc;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Digital7';
+    font-size: 5em;
+    margin: 0.3em;
 }

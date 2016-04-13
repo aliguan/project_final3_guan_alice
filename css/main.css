@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    background: url("../img/space.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header img {
+    width: 55%;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}

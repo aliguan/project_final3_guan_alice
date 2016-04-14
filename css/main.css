@@ -4,6 +4,10 @@ html {
     background-size: cover;
 }
 
+body {
+    margin: 1em;
+}
+
 *,
 *::before,
 *::after {
@@ -15,12 +19,19 @@ html {
     src: url("../font/digital7.ttf");
 }
 
+main {
+    background-color: blue;
+    width: 100%;
+    margin: auto;
+}
+
 header img {
     width: 55%;
     display: block;
     margin: auto;
     max-width: 400px;
     min-width: 300px;
+    padding-bottom: 2em;
 }
 
 .hidden {
@@ -45,4 +56,28 @@ header h1 {
     font-family: 'Digital7';
     font-size: 5em;
     margin: 0.3em;
+}
+
+footer {
+    clear: both;
+    background-color: white;
+    width: 100%;
+}
+
+.thirds {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+@media all and (min-width: 768px) {
+    .thirds {
+        width: calc(100% / 3 - 1em);
+        float: left;
+    }
+}
+
+.dish {
+    text-align: center;
 }

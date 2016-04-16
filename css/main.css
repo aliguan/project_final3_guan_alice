@@ -71,10 +71,10 @@ header h1 {
 }
 
 nav img {
-    width: 15%;
     display: inline-block;
-    max-width: 50px;
     min-width: 10px;
+    margin: auto;
+    width: 20%;
 }
 
 nav {
@@ -84,18 +84,13 @@ nav {
     padding: 0.5em 1em;
 }
 
-nav ul {
-    float: right;
-}
-
 nav a,
 nav li {
     text-decoration: none;
     color: #9ecb3a;
-    font-size: 1.3em;
     font-family: 'Space';
-    display: inline;
-    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
 }
 
 .thirds {
@@ -109,6 +104,18 @@ nav li {
         width: calc(100% / 3 - 1em);
         float: left;
     }
+    nav ul {
+        float: right;
+        padding-top: 0.7em;
+    }
+
+    nav a,
+    nav li {
+        display: inline;
+        padding-left: 0.6em;
+        font-size: 1.5em;
+    }
+
 }
 
 .dish {

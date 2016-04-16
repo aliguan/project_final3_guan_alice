@@ -44,7 +44,7 @@ body {
 
 @font-face {
     font-family: 'Cubano';
-    src: url("../font/Cuano.otf");
+    src: url("../font/Cubano.otf");
 }
 
 h1 {
@@ -173,5 +173,28 @@ footer {
 .entrees,
 .drinks,
 .desserts {
-    padding: 1em;
+    padding: 2em;
+}
+
+
+
+@media all and (min-width: 786px) {
+    .appetizers,
+    .entrees {
+        width: calc(100% / 2 - 3em);
+        float: left;
+    }
+    .drinks,
+    .desserts {
+        width: calc(100% / 2 - 2em);
+        float: left;
+    }
+    #menucontainer h3 {
+        float: right;
+    }
+
+}
+
+@media all and (min-width: 1100px) {
+
 }

@@ -91,6 +91,7 @@ nav li {
     font-family: 'Space';
     padding-bottom: 0.5em;
     font-size: 1.6em;
+    display: block;
 }
 
 .thirds {
@@ -106,7 +107,7 @@ nav li {
     }
     nav ul {
         float: right;
-        padding-top: 0.7em;
+        padding: 1em 1em 0 0;
     }
 
     nav a,
@@ -115,7 +116,10 @@ nav li {
         padding-left: 0.6em;
         font-size: 1.5em;
     }
-
+    nav img {
+        width: 8%;
+        padding: 1em;
+    }
 }
 
 .dish {

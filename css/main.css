@@ -42,8 +42,17 @@ body {
     src: url("../font/alienenc.ttf");
 }
 
+@font-face {
+    font-family: 'Cubano';
+    src: url("../font/Cuano.otf");
+}
+
+h1 {
+    font-family: 'Cubano';
+    color: #0055a0;
+}
+
 main {
-    background-color: #1a062d;
     width: 100%;
     margin: auto;
 }
@@ -96,13 +105,13 @@ nav li {
 
 .thirds {
     background-color: white;
-    padding: 1em;
-    margin: 0.5em;
+    padding: 2em;
+    margin: 2em;
 }
 
 @media all and (min-width: 768px) {
     .thirds {
-        width: calc(100% / 3 - 1em);
+        width: calc(100% / 3 - 4em);
         float: left;
     }
     nav ul {
@@ -130,4 +139,38 @@ footer {
     clear: both;
     background-color: white;
     width: 100%;
+}
+
+/* menu page */
+
+.logo {
+    background-color: #ffed9a;
+    width: 100%;
+    margin: auto;
+}
+
+.logo img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 2em;
+    min-width: 200px;
+    max-width: 460px;
+}
+
+#menucontainer {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+
+#menucontainer li {
+    list-style: none;
+}
+
+.appetizers,
+.entrees,
+.drinks,
+.desserts {
+    padding: 1em;
 }

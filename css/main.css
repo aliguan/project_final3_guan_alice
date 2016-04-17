@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 0.8em;
 }
 
@@ -64,18 +64,18 @@ header {
     width: 100%;
 }
 
-#fullpage h1 {
-    color: white;
-    font-family: 'Digital7';
-    font-size: 6em;
-    margin: 0.5em;
-}
-
 .planet,
 .welcome {
     width: calc(100% / 2);
     margin: auto;
     float: left;
+}
+
+.planet,
+.welcome h1 {
+    font-family: 'Cubano';
+    color: #0055a0;
+    margin-top: 0;
 }
 
 .planet img {

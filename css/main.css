@@ -56,6 +56,7 @@ h1 {
 main {
     width: 100%;
     margin: auto;
+    padding: 1em;
 }
 
 header {
@@ -70,23 +71,20 @@ header {
 #fullpage h1 {
     color: white;
     font-family: 'Digital7';
-    font-size: 5em;
-    margin: 0.3em;
+    font-size: 6em;
+    margin: 0.5em;
 }
 
-.marquee {
-    width: 100%;
+.planet {
+    width: 90%;
     margin: auto;
-    overflow: hidden;
 }
 
-
-
-nav img {
-    display: inline-block;
-    min-width: 10px;
+.planet img {
+    width: 60%;
+    min-width: 300px;
     margin: auto;
-    width: 20%;
+    display: block;
 }
 
 .drawer-hamburger-icon,
@@ -101,26 +99,20 @@ nav img {
     margin: 2em;
 }
 
+.fp-tableCell {
+    vertical-align: baseline;
+}
+
 @media all and (min-width: 768px) {
     .thirds {
         width: calc(100% / 3 - 4em);
         float: left;
     }
-    nav ul {
-        float: right;
-        padding: 1em 1em 0 0;
+    footer section {
+        width: calc(100% / 3);
+        float: left;
     }
 
-    nav a,
-    nav li {
-        display: inline;
-        padding-left: 0.6em;
-        font-size: 1.5em;
-    }
-    nav img {
-        width: 8%;
-        padding: 1em;
-    }
 }
 
 .dish {
@@ -128,9 +120,11 @@ nav img {
 }
 
 footer {
-    clear: both;
-    background-color: white;
-    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0055a0;
 }
 
 /* menu page */

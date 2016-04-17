@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
-    <link rel="stylesheet" href="css/unslider-dots.css">
-    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
+
         <header>
             <nav>
                 <img src="img/marqueealien.png" alt="Toy Story Alien">
@@ -25,17 +24,24 @@
                     <a href="#"><li>Reserve</li></a>
                 </ul>
             </nav>
-            <h1 class="hidden">Welcome to Pizza Planet</h1>
-            <div class="marquee">
-                <h1>Welcome to Pizza Planet!</h1>
-            </div>
-            <div>
-                <img src="img/planet.png" alt="A Pizza Planet"/>
-            </div>
-
-
         </header>
-        <main>
+    <div id="fullpage">
+            <div class="section">
+                <div class="slide">
+                    <h1 class="hidden">Welcome to Pizza Planet</h1>
+                    <div class="marquee">
+                        <h1>Welcome to Pizza Planet!</h1>
+                    </div>
+                    <div class=>
+                        <img src="img/planet.png" alt="A Pizza Planet"/>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h1>hi</h1>
+                </div>
+            </div>
+    </div>
+        <!-- <main>
             <h2 class="hidden">Deals</h2>
             <section class="thirds promos">
                 <h1>Promos</h1>
@@ -63,32 +69,50 @@
                 <img src="img/greenspag.jpg" alt="Alien Slime" width="95%"/>
                 <p>Today only get our one of a kind green Spaghetti and Slimeballs! Don"t worry it"s not radioactive ;)</p>
             </section>
-            <section class="thirds upcoming my-slider">
+            <section class="my-slider">
                 <h1>Upcoming Events</h1>
+                    <ul>
+                        <li><h2>10 Hour Lazer Tag</h2><h3>Every 3rd Friday</h3>Fight Aliens for Ten Hours with Complimentary Pizza and Alien Slime!</li>
+                        <li>
+                            <h2>$24.99</h2>
+                            <p>Unlimited Play Every Wednesdays & Sundays</p>
+                        </li>
+                        <li>
+                            <h2>Meet Buzz Lightyear!</h2>
+                            <p>Watch him fight off the Evil Emperor Zurg and take some pictures!</p>
+                        </li>
+                    </ul>
+            </section>
+        </main> -->
+        <footer>
+            <section class="location">
+                <h1>Where We Are</h1>
                 <ul>
-                    <li><h2>10 Hour Lazer Tag</h2><h3>Every 3rd Friday</h3>Fight Aliens for Ten Hours with Complimentary Pizza and Alien Slime!</li>
-                    <li>
-                        <h2>$24.99</h2>
-                        <p>Unlimited Play Every Wednesdays & Sundays</p>
-                    </li>
-                    <li>
-                        <h2>Meet Buzz Lightyear!</h2>
-                        <p>Watch him fight off the Evil Emperor Zurg and take some pictures!</p>
-                    </li>
+                    <li>4302 Galaxy Rd,</li>
+                    <li>Millenia, CA 10001</li>
+                    <li>Around the Corner from The Claw</li>
                 </ul>
             </section>
-        </main>
-        <footer>
-            <section class="thirds location">
+            <section class="hours">
+                <h1>Hours of Flight</h1>
+                <ul>
+                    <li>Monday to Thursday - 11AM - 10PM</li>
+                    <li>Friday to Saturday - 11am - 12AM</li>
+                    <li>Sunday - 11AM to 10PM</li>
+                </ul>
             </section>
-            <section class="thirds hours">
-            </section>
-            <section class="thirds contact">
+            <section class="contact">
+                <h1>Make Contact</h1>
+                <ul>
+                    <li>Monday to Thursday - 11AM - 10PM</li>
+                    <li>Friday to Saturday - 11am - 12AM</li>
+                    <li>Sunday - 11AM to 10PM</li>
+                </ul>
             </section>
         </footer>
-    </div>
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

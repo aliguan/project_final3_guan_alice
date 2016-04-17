@@ -67,18 +67,20 @@ header img {
     padding-bottom: 2em;
 }
 
-header h1 {
+#fullpage h1 {
     color: white;
     font-family: 'Digital7';
     font-size: 5em;
     margin: 0.3em;
-}
+}s
 
 .marquee {
     width: 100%;
     margin: auto;
     overflow: hidden;
 }
+
+
 
 nav img {
     display: inline-block;
@@ -108,6 +110,10 @@ nav li {
     background-color: white;
     padding: 2em;
     margin: 2em;
+}
+
+.my-slider {
+    background: white;
 }
 
 @media all and (min-width: 768px) {

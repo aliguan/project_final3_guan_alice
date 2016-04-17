@@ -176,6 +176,11 @@ footer {
     padding: 2em;
 }
 
+.menuheading img {
+    width: 40px;
+    float: left;
+    padding-right: 1em;
+}
 
 
 @media all and (min-width: 786px) {

@@ -71,13 +71,15 @@ header {
     margin: 0.5em;
 }
 
-.planet {
-    width: 90%;
+.planet,
+.welcome {
+    width: calc(100% / 2);
     margin: auto;
+    float: left;
 }
 
 .planet img {
-    width: 60%;
+    width: 100%;
     min-width: 300px;
     margin: auto;
     display: block;

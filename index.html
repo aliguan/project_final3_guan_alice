@@ -8,83 +8,87 @@
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
 </head>
-<body>
-
-        <header>
-            <nav>
-                <img src="img/marqueealien.png" alt="Toy Story Alien">
-                <ul>
-                    <a href="index.html"><li>Home</li></a>
-                    <a href="menu.html"><li>Menu</li></a>
-                    <a href="#"><li>Games</li></a>
-                    <a href="#"><li>Reserve</li></a>
-                </ul>
-            </nav>
-        </header>
-    <div id="fullpage">
-            <div class="section">
-                <div class="slide">
-                    <h1 class="hidden">Welcome to Pizza Planet</h1>
-                    <div class="marquee">
-                        <h1>Welcome to Pizza Planet!</h1>
+<body class="drawer drawer--left">
+    <header role="banner">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+        <nav class="drawer-nav" role="navigation">
+          <ul class="drawer-menu">
+            <li><a class="drawer-brand" href="index.html">Home</a></li>
+            <li><a class="drawer-menu-item" href="menu.html">Menu</a></li>
+            <li><a class="drawer-menu-item" href="#">Reserve</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main role="main">
+        <div id="fullpage">
+                <div class="section">
+                    <div class="slide">
+                        <h1 class="hidden">Welcome to Pizza Planet</h1>
+                        <div class="marquee">
+                            <h1>Welcome to Pizza Planet!</h1>
+                        </div>
+                        <div class=>
+                            <img src="img/planet.png" alt="A Pizza Planet"/>
+                        </div>
                     </div>
-                    <div class=>
-                        <img src="img/planet.png" alt="A Pizza Planet"/>
-                    </div>
-                </div>
-                <div class="slide">
-                    <h2 class="hidden">Deals</h2>
-                    <section class="thirds promos">
-                        <h1>Promos</h1>
-                        <ul>
-                            <li>
-                                <h2>$4.99</h2>
-                                <p>Large Planet X Pizzas Every Tuesday</p></li>
-                            <li>
-                                <h2>$19.99</h2>
-                                <h3>Cosmic Family Meal:</h3>
+                    <div class="slide">
+                        <h2 class="hidden">Deals</h2>
+                        <section class="thirds promos">
+                            <h1>Promos</h1>
+                            <ul>
+                                <li>
+                                    <h2>$4.99</h2>
+                                    <p>Large Planet X Pizzas Every Tuesday</p></li>
+                                <li>
+                                    <h2>$19.99</h2>
+                                    <h3>Cosmic Family Meal:</h3>
+                                        <ul>
+                                            <li>2 The Claw Pizzas</li>
+                                            <li>Large Outer Space Fries</li>
+                                            <li>4 Martian Sludge Drinks</li>
+                                        </ul>
+                                </li>
+                                <li>
+                                    <h2>Got Martian Munchies?</h2>
+                                    <p>Come compete every Tuesday in our Alien Wings and one-of-a-kind Spaceship Tacos.</p>
+                                </li>
+                            </ul>
+                        </section>
+                        <div class="slide">
+                            <section class="thirds dish">
+                                <h1>Spacefood of the Day!</h1>
+                                <img src="img/greenspag.jpg" alt="Alien Slime" width="95%"/>
+                                <p>Today only get our one of a kind green Spaghetti and Slimeballs! Don"t worry it"s not radioactive ;)</p>
+                            </section>
+                        </div>
+                        <div class="slide">
+                            <section class="events">
+                                <h1>Upcoming Events</h1>
                                     <ul>
-                                        <li>2 The Claw Pizzas</li>
-                                        <li>Large Outer Space Fries</li>
-                                        <li>4 Martian Sludge Drinks</li>
+                                        <li><h2>10 Hour Lazer Tag</h2><h3>Every 3rd Friday</h3>Fight Aliens for Ten Hours with Complimentary Pizza and Alien Slime!</li>
+                                        <li>
+                                            <h2>$24.99</h2>
+                                            <p>Unlimited Play Every Wednesdays & Sundays</p>
+                                        </li>
+                                        <li>
+                                            <h2>Meet Buzz Lightyear!</h2>
+                                            <p>Watch him fight off the Evil Emperor Zurg and take some pictures!</p>
+                                        </li>
                                     </ul>
-                            </li>
-                            <li>
-                                <h2>Got Martian Munchies?</h2>
-                                <p>Come compete every Tuesday in our Alien Wings and one-of-a-kind Spaceship Tacos.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <div class="slide">
-                        <section class="thirds dish">
-                            <h1>Spacefood of the Day!</h1>
-                            <img src="img/greenspag.jpg" alt="Alien Slime" width="95%"/>
-                            <p>Today only get our one of a kind green Spaghetti and Slimeballs! Don"t worry it"s not radioactive ;)</p>
-                        </section>
-                    </div>
-                    <div class="slide">
-                        <section class="events">
-                            <h1>Upcoming Events</h1>
-                                <ul>
-                                    <li><h2>10 Hour Lazer Tag</h2><h3>Every 3rd Friday</h3>Fight Aliens for Ten Hours with Complimentary Pizza and Alien Slime!</li>
-                                    <li>
-                                        <h2>$24.99</h2>
-                                        <p>Unlimited Play Every Wednesdays & Sundays</p>
-                                    </li>
-                                    <li>
-                                        <h2>Meet Buzz Lightyear!</h2>
-                                        <p>Watch him fight off the Evil Emperor Zurg and take some pictures!</p>
-                                    </li>
-                                </ul>
-                        </section>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
-    </div>
+    </main>
         <footer>
             <section class="location">
                 <h1>Where We Are</h1>
@@ -114,6 +118,8 @@
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

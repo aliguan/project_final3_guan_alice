@@ -58,13 +58,13 @@ main {
     margin: auto;
 }
 
-header img {
-    width: 55%;
-    display: block;
-    margin: auto;
-    max-width: 400px;
-    min-width: 300px;
-    padding-bottom: 2em;
+header {
+    background-color: white;
+    width: 100%;
+}
+
+#fullpage {
+    margin-top: 2em;
 }
 
 #fullpage h1 {
@@ -72,7 +72,7 @@ header img {
     font-family: 'Digital7';
     font-size: 5em;
     margin: 0.3em;
-}s
+}
 
 .marquee {
     width: 100%;
@@ -89,31 +89,16 @@ nav img {
     width: 20%;
 }
 
-nav {
-    width: 100%;
-    margin: auto;
-    background-color: #0055a0;
-    padding: 0.5em 1em;
-}
-
-nav a,
-nav li {
-    text-decoration: none;
-    color: #9ecb3a;
-    font-family: 'Space';
-    padding-bottom: 0.5em;
-    font-size: 1.6em;
-    display: block;
+.drawer-hamburger-icon,
+.drawer-hamburger-icon::after,
+.drawer-hamburger-icon::before {
+    background-color: white;
 }
 
 .thirds {
     background-color: white;
     padding: 2em;
     margin: 2em;
-}
-
-.my-slider {
-    background: white;
 }
 
 @media all and (min-width: 768px) {
@@ -221,9 +206,4 @@ footer {
     #menucontainer h3 {
         float: right;
     }
-
-}
-
-@media all and (min-width: 1100px) {
-
 }

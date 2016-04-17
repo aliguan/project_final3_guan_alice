@@ -89,15 +89,21 @@ header {
     background-color: white;
 }
 
-.thirds {
-    background-color: white;
-    padding: 2em;
-    margin: 2em;
-}
+/* fullPage CSS overrides */
 
-.fp-tableCell {
+.fp-tableCell,
+.fpSlides,
+.fp-slidesContainer {
     vertical-align: baseline;
     overflow-y: hidden;
+}
+
+.fp-controlArrow.fp-prev {
+    border-width: 20.5px 22px 20.5px 0;
+}
+
+.fp-controlArrow.fp-next {
+    border-width: 20.5px 0 20.5px 22px;
 }
 
 footer {

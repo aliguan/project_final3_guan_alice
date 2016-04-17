@@ -269,8 +269,9 @@ footer li {
 .drinks,
 .desserts {
     padding: 2em;
-    margin: auto;
+    margin-left: 1.2em;
     background-color: white;
+
 }
 
 .menuheading img {
@@ -286,20 +287,24 @@ footer li {
     padding-bottom: 0.5em;
 }
 
-
+footer {
+    background: #0050a0;
+}
 
 @media all and (min-width: 786px) {
     .appetizers,
     .entrees {
         width: calc(100% / 2 - 3em);
         float: left;
-        margin-left: 1.2em;
+    }
+    .appetizers {
+        padding-bottom: 0;
     }
     .drinks,
     .desserts {
         width: calc(100% / 2 - 3em);
         float: left;
-        margin: auto;
+        padding: 1.5em;
     }
     #menucontainer h3 {
         float: right;
@@ -311,14 +316,11 @@ footer li {
         margin: auto;
         padding-left: 3em;
     }
-    footer {
-        background: #0050a0;
-
-    }
     .sectionwpr {
         width: 100%;
         margin: auto;
         background: white;
+        padding-bottom: 15em;
     }
 }
 

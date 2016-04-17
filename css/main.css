@@ -64,10 +64,6 @@ header {
     width: 100%;
 }
 
-#fullpage {
-    margin-top: 2em;
-}
-
 #fullpage h1 {
     color: white;
     font-family: 'Digital7';
@@ -101,6 +97,33 @@ header {
 
 .fp-tableCell {
     vertical-align: baseline;
+    overflow-y: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0055a0;
+    padding-bottom: 2em;
+}
+
+footer ul {
+    width: 100%;
+    margin: auto;
+}
+
+footer li {
+    list-style: none;
+}
+
+.contact li {
+    display: inline;
+    width: calc(100% / 3);
+    font-size: 4em;
+    float: right;
+    color: #9ecb3a;
 }
 
 @media all and (min-width: 768px) {
@@ -112,19 +135,16 @@ header {
         width: calc(100% / 3);
         float: left;
     }
+}
 
+@media all and (max-width: 400px) {
+    .location {
+        display: none;
+    }
 }
 
 .dish {
     text-align: center;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #0055a0;
 }
 
 /* menu page */

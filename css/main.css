@@ -59,36 +59,58 @@ main {
     padding: 1em;
 }
 
+.drawer-hamburger-icon,
+.drawer-hamburger-icon::after,
+.drawer-hamburger-icon::before {
+    background-color: white;
+}
+
 header {
     background-color: white;
     width: 100%;
 }
 
-.planet,
-.welcome {
-    width: calc(100% / 2);
-    margin: auto;
-    float: left;
+.marquee h1 {
+    color: white;
+    font-family: 'Digital7';
+    font-size: 5em;
+    margin: 0.5em;
 }
 
 .planet,
+.welcome {
+    padding: 1em;
+    margin-top: 1.7em;
+}
+
+.welcome p {
+    font-size: 1.5vw;
+}
+
+.welcome {
+    background: #0055a0;
+    color: white;
+    border: 10px solid #fed828;
+}
+
 .welcome h1 {
     font-family: 'Cubano';
-    color: #0055a0;
+    color: #fed828;
     margin-top: 0;
+    font-size: 4vw;
 }
 
 .planet img {
+    display: none;
     width: 100%;
-    min-width: 300px;
-    margin: auto;
+    min-width: 100px;
     display: block;
 }
 
-.drawer-hamburger-icon,
-.drawer-hamburger-icon::after,
-.drawer-hamburger-icon::before {
-    background-color: white;
+button {
+    background-color: #0055a0;
+    color: white;
+
 }
 
 /* fullPage CSS overrides */
@@ -157,14 +179,32 @@ footer li {
     .contact li {
         font-size: 3em;
     }
+    .planet {
+        width: calc(100% / 2 - 1em);
+        float: left;
+    }
+    .welcome {
+        width: calc(100% / 2 - 6em);
+        float: left;
+    }
+
 }
 
 @media all and (max-width: 450px) {
-    .contact {
+    .contact,
+    .hours,
+    .planet {
         display: none;
     }
     .location {
         margin-bottom: 1.2em;
+    }
+    .welcome {
+        width: 100%;
+    }
+    .welcome h1,
+    .welcome p {
+        font-size: 5vw;
     }
 }
 

@@ -161,8 +161,11 @@ footer {
 
 #menucontainer {
     width: 100%;
-    background-color: white;
     margin: auto;
+    font-size: 0.8em;
+    background-color: white;
+    max-width: 1000px;
+
 }
 
 #menucontainer li {
@@ -174,6 +177,7 @@ footer {
 .drinks,
 .desserts {
     padding: 2em;
+    margin: auto;
 }
 
 .menuheading img {
@@ -182,6 +186,21 @@ footer {
     padding-right: 1em;
 }
 
+.menuheading h1 {
+    border-bottom: 3px #9ecb3a solid;
+    font-size: 2.5em;
+    margin-left: 1.8em;
+    padding-bottom: 0.5em;
+}
+
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
 @media all and (min-width: 786px) {
     .appetizers,
@@ -191,7 +210,7 @@ footer {
     }
     .drinks,
     .desserts {
-        width: calc(100% / 2 - 2em);
+        width: calc(100% / 2 - 3em);
         float: left;
     }
     #menucontainer h3 {

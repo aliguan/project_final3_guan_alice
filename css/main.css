@@ -56,7 +56,6 @@ h1 {
 main {
     width: 100%;
     margin: auto;
-    padding: 1em;
 }
 
 a {
@@ -147,7 +146,7 @@ header {
     border-width: 20.5px 0 20.5px 22px;
 }
 
-footer {
+#frontpgfooter {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -271,6 +270,7 @@ footer li {
 .desserts {
     padding: 2em;
     margin: auto;
+    background-color: white;
 }
 
 .menuheading img {
@@ -286,6 +286,42 @@ footer li {
     padding-bottom: 0.5em;
 }
 
+
+
+@media all and (min-width: 786px) {
+    .appetizers,
+    .entrees {
+        width: calc(100% / 2 - 3em);
+        float: left;
+        margin-left: 1.2em;
+    }
+    .drinks,
+    .desserts {
+        width: calc(100% / 2 - 3em);
+        float: left;
+        margin: auto;
+    }
+    #menucontainer h3 {
+        float: right;
+    }
+    #otherfooter {
+        clear: both;
+        background-color: #0050a0;
+        width: 100%;
+        margin: auto;
+        padding-left: 3em;
+    }
+    footer {
+        background: #0050a0;
+
+    }
+    .sectionwpr {
+        width: 100%;
+        margin: auto;
+        background: white;
+    }
+}
+
 .clearfix::after {
     visibility: hidden;
     display: block;
@@ -293,20 +329,4 @@ footer li {
     content: " ";
     clear: both;
     height: 0;
-}
-
-@media all and (min-width: 786px) {
-    .appetizers,
-    .entrees {
-        width: calc(100% / 2 - 3em);
-        float: left;
-    }
-    .drinks,
-    .desserts {
-        width: calc(100% / 2 - 3em);
-        float: left;
-    }
-    #menucontainer h3 {
-        float: right;
-    }
 }

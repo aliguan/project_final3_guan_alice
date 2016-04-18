@@ -135,6 +135,10 @@ header {
 
 /* fullPage CSS overrides */
 
+#fullpage {
+    margin: 4em 3em 0 3em;
+}
+
 .fp-tableCell,
 .fpSlides,
 .fp-slidesContainer {
@@ -142,12 +146,18 @@ header {
     overflow-y: hidden;
 }
 
+.fp-controlArrow {
+    top: 40%;
+}
+
 .fp-controlArrow.fp-prev {
-    border-width: 20.5px 22px 20.5px 0;
+    left: 0;
+    border-width: 15.5px 17px 15.5px 0;
 }
 
 .fp-controlArrow.fp-next {
-    border-width: 20.5px 0 20.5px 22px;
+    right: 0;
+    border-width: 15.5px 0 15.5px 17px;
 }
 
 #frontpgfooter {

@@ -136,7 +136,7 @@ header {
 /* fullPage CSS overrides */
 
 #fullpage {
-    margin: 4em 3em 0 3em;
+    margin: 2em;
 }
 
 .fp-tableCell,
@@ -147,7 +147,7 @@ header {
 }
 
 .fp-controlArrow {
-    top: 40%;
+    top: 70%;
 }
 
 .fp-controlArrow.fp-prev {
@@ -159,6 +159,16 @@ header {
     right: 0;
     border-width: 15.5px 0 15.5px 17px;
 }
+
+/* Promos */
+
+.promos {
+    background-color: white;
+    width: 100%;
+    margin-top: 20%;
+    overflow-y: hidden;
+}
+
 
 #frontpgfooter {
     position: absolute;
@@ -201,6 +211,12 @@ footer li {
 }
 
 @media all and (min-width: 768px) {
+    #fullpage {
+        margin: 4em 3em 0 3em;
+    }
+    .fp-controlArrow {
+        top: 40%;
+    }
     footer section {
         width: calc(100% / 3);
         float: left;

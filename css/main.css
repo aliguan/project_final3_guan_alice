@@ -129,6 +129,10 @@ header {
     margin: auto;
 }
 
+.drawer-hamburger {
+    background-color: #0055a0;
+}
+
 /* fullPage CSS overrides */
 
 .fp-tableCell,

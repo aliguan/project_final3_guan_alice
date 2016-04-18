@@ -206,24 +206,6 @@ footer li {
 
 }
 
-@media all and (max-width: 450px) {
-    .contact,
-    .hours,
-    .planet {
-        display: none;
-    }
-    .location {
-        margin-bottom: 1.2em;
-    }
-    .welcome {
-        width: 100%;
-    }
-    .welcome h1,
-    .welcome p {
-        font-size: 5vw;
-    }
-}
-
 @media all and (max-width: 320px) {
     .location,
     .contact {
@@ -255,7 +237,7 @@ footer li {
 #menucontainer {
     width: 100%;
     margin: auto;
-    font-size: 0.8em;
+    font-size: 0.9em;
     background-color: white;
     max-width: 1000px;
 }
@@ -287,15 +269,26 @@ footer li {
     padding-bottom: 0.5em;
 }
 
+
 #otherfooter {
     background: #0050a0;
-    height: 13em;
+    height: 15em;
     color: white;
+    margin: auto;
+    padding: 2em 0 2em 7em;
 }
 
 #footerwpr {
     width: 75%;
     margin: auto;
+}
+
+#secretmenu {
+    margin: 0 3em;
+    clear: both;
+    padding: 2em;
+    border: 4px solid #9ecb3a;
+    display: none;
 }
 
 @media all and (min-width: 786px) {
@@ -304,14 +297,15 @@ footer li {
         width: calc(100% / 2 - 3em);
         float: left;
     }
-    .appetizers {
-        padding-bottom: 0;
+
+    .entrees {
+        padding-bottom: 5em;
     }
     .drinks,
     .desserts {
         width: calc(100% / 2 - 3em);
         float: left;
-        padding: 1.5em;
+        padding: 2em;
     }
     #menucontainer h3 {
         float: right;
@@ -325,7 +319,11 @@ footer li {
         width: 100%;
         margin: auto;
         background: white;
-        padding-bottom: 15em;
+        padding-bottom: 5em;
+    }
+    #secretmenu {
+        width: calc(100% / 3 * 2);
+        margin: auto;
     }
 }
 
@@ -336,4 +334,25 @@ footer li {
     content: " ";
     clear: both;
     height: 0;
+}
+
+@media all and (max-width: 450px) {
+    .contact,
+    .hours,
+    .planet {
+        display: none;
+    }
+    .location {
+        margin-bottom: 1.2em;
+    }
+    .welcome {
+        width: 100%;
+    }
+    .welcome h1,
+    .welcome p {
+        font-size: 5vw;
+    }
+    #menucontainer {
+        padding-bottom: 3em;
+    }
 }

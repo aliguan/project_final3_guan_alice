@@ -169,7 +169,8 @@ li {
 
 /* Promos */
 
-.promos {
+.promos,
+.events {
     background-color: #0055a0;
     width: 100%;
     margin: 10% 1em 1em 0;
@@ -178,17 +179,20 @@ li {
     color: #fed828;
 }
 
-.promos h1 {
+.promos h1,
+.events h1 {
     color: #fed828;
     font-size: 3em;
     margin: 0.2em;
 }
 
-.promos h2 {
+.promos h2,
+.events h2 {
     color: white;
 }
 
-.promos li {
+.promos li,
+.events li {
     margin-bottom: 1em;
     font-size: 0.8em;
 }
@@ -196,6 +200,7 @@ li {
 #cosmic li {
     margin-bottom: 0;
 }
+
 
 
 #frontpgfooter {
@@ -257,24 +262,37 @@ footer ul {
         width: calc(100% / 2 - 6em);
         float: left;
     }
-    .promos h2 {
-        color: #9ecb3a;
-        font-size: 1.4em;
-    }
-    .promos {
+    .promos,
+    .events {
         background-image: url("../img/pizzabg.jpg");
         background-size: cover;
         width: 95%;
         margin: auto;
         max-width: 1100px;
     }
-    .promos li {
+    .events {
+        background-image: url("../img/eventsbg.jpg");
+    }
+    .promos h2,
+    .events h2 {
+        color: #9ecb3a;
+        font-size: 1.4em;
+    }
+    .promos li,
+    .events li {
         color: white;
         font-size: 1em;
         padding-bottom: 0.5em;
     }
     #cosmic li {
         padding-bottom: 0;
+    }
+    .eventswpr {
+        width: calc(100% / 3);
+        margin-left: 1em;
+    }
+    #halp {
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -398,7 +416,7 @@ footer ul {
     height: 0;
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
     .contact,
     .hours,
     .planet {

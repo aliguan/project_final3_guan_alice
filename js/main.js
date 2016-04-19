@@ -10,7 +10,7 @@ $( document ).ready( function() {
   $( '.drawer' ).drawer();
 } );
 
-/* Show secret menu when p'ressing 'z' */
+/* Show secret menu when pressing 'z' */
 window.addEventListener( 'keydown', revealMenu, false );
 
 var keys = [];
@@ -22,3 +22,9 @@ function revealMenu( event ) {
         secret.style.display = 'block';
     }
 }
+
+/* Click on planet img to spin it by adding a CSS3 animation */
+
+$( '.planet' ).click( function() {
+$( this ).addClass( 'planetspin' );
+} );

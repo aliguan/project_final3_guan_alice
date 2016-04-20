@@ -262,7 +262,7 @@ footer ul {
         padding-left: 2em;
     }
     .contact li {
-        font-size: 3em;
+        font-size: 4vw;
     }
     .planet {
         width: calc(100% / 2 - 1em);
@@ -365,7 +365,7 @@ footer ul {
     height: 15em;
     color: white;
     margin: auto;
-    padding: 2em 0 2em 7em;
+    padding: 2em 0 2em 3em;
 }
 
 #footerwpr {
@@ -445,4 +445,20 @@ footer ul {
     #menucontainer {
         padding-bottom: 3em;
     }
+}
+
+form {
+    padding: 1em;
+    background-color: #0055a0;
+    width: 100%;
+    border-radius: 5px;
+    border: 5px solid #9ecb3a;
+}
+
+input {
+    display: block;
+}
+
+label {
+    color: #fed828;
 }

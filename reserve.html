@@ -24,12 +24,62 @@
           <ul class="drawer-menu">
             <li><a class="drawer-brand" href="index.html">Home</a></li>
             <li><a class="drawer-menu-item" href="menu.html">Menu</a></li>
-            <li><a class="drawer-menu-item" href="#">Reserve</a></li>
+            <li><a class="drawer-menu-item" href="reserve.html">Reserve</a></li>
           </ul>
         </nav>
     </header>
-
-
+    <main>
+        <div id="menucontainer">
+            <div class="logo">
+                <img src="img/logo.png" alt="Pizza Planet Logo">
+            </div>
+            <section>
+                <h1 style="font-size: 3em; text-align: center; padding-top: 0.5em;">RESERVATIONS</h1>
+            </section>
+            <div class="sectionwpr clearfix">
+                <section class="appetizers">
+                    <div class="menuheading">
+                        <img src="img/cuterocket.png" alt="Red Rocket"/>
+                        <h1>Appetizers</h1>
+                    </div>
+                    <form action="post">
+                        <label>Name</label>
+                        <input name="name" placeholder="Buzz Lightyear" type="text" width="100px;">
+                        <label>Email Id</label>
+                        <input name="email" placeholder="reserve@pizzaplanet.com" type="text">
+                        <label>Phone Number</label>
+                        <input name="contact" placeholder="555-555-5555" type="text">
+                        <label>Website URL</label>
+                        <select name="menuitems">
+                            <optgroup label="Appetizers">
+                                <option value="Wings from Planet X">Winds from Planet X</option>
+                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
+                                <option value="Mars Red Fries">Mars Red Fries</option>
+                            </optgroup>
+                            <optgroup label="Appetizers">
+                                <option value="Wings from Planet X">Winds from Planet X</option>
+                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
+                                <option value="Mars Red Fries">Mars Red Fries</option>
+                            </optgroup>
+                            <optgroup label="Appetizers">
+                                <option value="Wings from Planet X">Winds from Planet X</option>
+                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
+                                <option value="Mars Red Fries">Mars Red Fries</option>
+                            </optgroup>
+                            <optgroup label="Appetizers">
+                                <option value="Wings from Planet X">Winds from Planet X</option>
+                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
+                                <option value="Mars Red Fries">Mars Red Fries</option>
+                            </optgroup>
+                        </select>
+                        <textarea cols="15" name="message" placeholder="Message" rows="10">
+                        </textarea>
+                        <input id="submit" type="submit" value="Send Message">
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
     <footer id="otherfooter">
         <div id="footerwpr clearfix">
             <section class="location">
@@ -59,11 +109,13 @@
         </div>
     </footer>
 
+
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 </html>

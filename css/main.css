@@ -403,7 +403,6 @@ footer ul {
     #otherfooter {
         background-color: #0050a0;
         width: 100%;
-        padding: 2em 0 2em 8em;
     }
     .sectionwpr {
         width: 100%;
@@ -447,18 +446,48 @@ footer ul {
     }
 }
 
+.reserveheading {
+    width: 100%;
+    margin: auto;
+}
+
+.reserveheading img {
+    padding-top: 2em;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.formwpr {
+    width: 100%;
+    margin: auto;
+}
+
 form {
     padding: 1em;
     background-color: #0055a0;
-    width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 5px solid #9ecb3a;
+    margin: 1em;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
 }
 
 input {
-    display: block;
+    border: none;
 }
 
 label {
     color: #fed828;
+    font-size: 2em;
+}
+
+.quantity {
+    width: 40px;
+    text-align: center;
 }

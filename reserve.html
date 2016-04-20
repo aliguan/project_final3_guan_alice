@@ -33,46 +33,63 @@
             <div class="logo">
                 <img src="img/logo.png" alt="Pizza Planet Logo">
             </div>
-            <section>
-                <h1 style="font-size: 3em; text-align: center; padding-top: 0.5em;">RESERVATIONS</h1>
-            </section>
             <div class="sectionwpr clearfix">
-                <section class="appetizers">
-                    <div class="menuheading">
-                        <img src="img/cuterocket.png" alt="Red Rocket"/>
-                        <h1>Appetizers</h1>
+                <section class="formwpr">
+                    <div class="reserveheading">
+                        <img src="img/coolalien.png" alt="Toy Story Alien">
+                        <h1 style="color: #9ecb3a; font-size: 3em; text-align: center; padding-top: 0.5em;">RESERVATIONS</h1>
                     </div>
                     <form action="post">
                         <label>Name</label>
                         <input name="name" placeholder="Buzz Lightyear" type="text" width="100px;">
-                        <label>Email Id</label>
+                        <label>Email</label>
                         <input name="email" placeholder="reserve@pizzaplanet.com" type="text">
                         <label>Phone Number</label>
                         <input name="contact" placeholder="555-555-5555" type="text">
-                        <label>Website URL</label>
-                        <select name="menuitems">
-                            <optgroup label="Appetizers">
-                                <option value="Wings from Planet X">Winds from Planet X</option>
-                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
-                                <option value="Mars Red Fries">Mars Red Fries</option>
-                            </optgroup>
-                            <optgroup label="Appetizers">
-                                <option value="Wings from Planet X">Winds from Planet X</option>
-                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
-                                <option value="Mars Red Fries">Mars Red Fries</option>
-                            </optgroup>
-                            <optgroup label="Appetizers">
-                                <option value="Wings from Planet X">Winds from Planet X</option>
-                                <option value="Jalapeno Rockets">Jalapeno Rockets</option>
-                                <option value="Mars Red Fries">Mars Red Fries</option>
-                            </optgroup>
+                        <label>Place an Order</label>
+                        <select name="appetizers">
+                            <option disabled="disabled" selected="selected">Select Appetizers</option>
                             <optgroup label="Appetizers">
                                 <option value="Wings from Planet X">Winds from Planet X</option>
                                 <option value="Jalapeno Rockets">Jalapeno Rockets</option>
                                 <option value="Mars Red Fries">Mars Red Fries</option>
                             </optgroup>
                         </select>
-                        <textarea cols="15" name="message" placeholder="Message" rows="10">
+                        <input class="quantity" name="quantity" placeholder="1" type="text">
+                        <select name="entrees">
+                            <option disabled="disabled" selected="selected">Select Entrees</option>
+                            <optgroup label="Entrees">
+
+                                <option value="Spaceship Pizza">Spaceship Pizza</option>
+                                <option value="Galactic Spicy Fish">Galactic Spicy Fish</option>
+                                <option value="Build-Your-Own-Neptune Burger">Build-Your-Own-Neptune Burger</option>
+                            </optgroup>
+                        </select>
+                        <input class="quantity" name="quantity" placeholder="1" type="text">
+                        <label>Quantity</label>
+                        <input class="quantity" name="quantity" placeholder="1" type="text">
+                        <select name="drinks">
+                             <option disabled="disabled" selected="selected">Select Drinks</option>
+                            <optgroup label="Drinks">
+                                <option value="Emporer Zurg Shakes">Emporer Zurg Shakes</option>
+                                <option value="Alien Slime">Alien Slime</option>
+                                <option value="Area 51 Juice">Area 51 Juice</option>
+                            </optgroup>
+                        </select>
+                        <label>Quantity</label>
+                        <input class="quantity" name="quantity" placeholder="1" type="text">
+                        <select>
+                            <option disabled="disabled" selected="selected">Select Desserts</option>
+                            <optgroup label="Desserts">
+                                <option value="Cosmic Churros">Cosmic Churros</option>
+                                <option value="Flying Saucer Sundaes">Flying Saucer Sundaes</option>
+                                <option value="Meteor Dust Pie">Meteor Dust Pie</option>
+                            </optgroup>
+                        </select>
+                        <label>Quantity</label>
+                        <input class="quantity" name="quantity" placeholder="1" type="text">
+
+                        <textarea cols="100%" name="message" placeholder="Message" rows="10">
                         </textarea>
                         <input id="submit" type="submit" value="Send Message">
                     </form>

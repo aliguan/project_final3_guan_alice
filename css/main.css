@@ -213,8 +213,6 @@ li {
     margin-bottom: 0;
 }
 
-
-
 #frontpgfooter {
     position: absolute;
     bottom: 0;
@@ -253,7 +251,7 @@ footer ul {
 
 @media all and (min-width: 768px) {
     #fullpage {
-        margin: 4em 3em 0 3em;
+        margin: 3em;
     }
     .fp-controlArrow {
         top: 40%;
